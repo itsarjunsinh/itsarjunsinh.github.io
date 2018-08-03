@@ -86,6 +86,14 @@ a.nav-item:hover {
 	margin-bottom: 2rem;
 }
 
+.title.project-name {
+	margin-bottom: 0.5rem;
+}
+
+.project-links {
+    margin-top: auto;
+}
+
 .intro {
 	text-align: justify;
 	width: 80%;

@@ -4,9 +4,9 @@ html, body{
 	background-color: #063647; 
 }
 
-a {
+/*a {
   color: #00d1b2;
-}
+}*/
 
 a:hover {
   color: #00d1b2;
@@ -65,6 +65,7 @@ a.nav-item:hover {
 
 .project-text {
 	text-align: justify;
+	color: #dfdfdf;
 }
 
 .box {
@@ -82,8 +83,9 @@ a.nav-item:hover {
 }
 
 .title.section-name {
-    text-align: left;
+    /*text-align: left;*/
 	margin-bottom: 2rem;
+	font-weight: 300;
 }
 
 .title.project-name {
@@ -91,7 +93,7 @@ a.nav-item:hover {
 }
 
 .project-links {
-    margin-top: auto;
+    margin-top: .5rem;
 }
 
 .intro {

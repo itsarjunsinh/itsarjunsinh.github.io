@@ -71,6 +71,7 @@ a.nav-item:hover {
 .box {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
+	display: grid;
 }
 
 .column {
@@ -89,11 +90,17 @@ a.nav-item:hover {
 }
 
 .title.project-name {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+
+.project-type {
+	font-size: 1.25rem!important;
+	margin-bottom: 0.4rem;
 }
 
 .project-links {
-    margin-top: .5rem;
+	margin-top: .5rem;
+	align-self: flex-end;
 }
 
 .intro {
